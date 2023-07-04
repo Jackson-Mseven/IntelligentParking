@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "开具发票",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

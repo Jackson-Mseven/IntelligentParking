@@ -1,0 +1,162 @@
+{
+	"pages": [{
+		"path": "pages/map/map",
+		"style": {
+			"navigationBarTitleText": "停车",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/serve/serve",
+		"style": {
+			"navigationBarTitleText": "服务",
+			"navigationBarTextStyle": "white",
+			"navigationBarBackgroundColor": "#4186fd",
+			"backgroundColor": "#4186fd",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"navigationBarBackgroundColor": "#4186fd",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/search/search",
+		"style": {
+			"navigationBarTitleText": "查询目的地",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "停车场详情",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/bind/bind",
+		"style": {
+			"navigationBarTitleText": "添加车牌",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/order/order",
+		"style": {
+			"navigationBarTitleText": "订单",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/management/management",
+		"style": {
+			"navigationBarTitleText": "车辆管理",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/coupon/coupon",
+		"style": {
+			"navigationBarTitleText": "优惠券",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/invoice/invoice",
+		"style": {
+			"navigationBarTitleText": "开具发票",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/publish/publish",
+		"style": {
+			"navigationBarTitleText": "车位发布",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/wallet/wallet",
+		"style": {
+			"navigationBarTitleText": "我的钱包",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/touch/touch",
+		"style": {
+			"navigationBarTitleText": "联系我们",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/setting/setting",
+		"style": {
+			"navigationBarTitleText": "更多",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/explain/explain",
+		"style": {
+			"navigationBarTitleText": "优惠券说明",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/parking/parking",
+		"style": {
+			"navigationBarTitleText": "停车场",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/hot/hot",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}    ,{
+            "path" : "pages/hotDetail/hotDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#4186fd",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/map/map",
+				"text": "停车",
+				"iconPath": "static/tab-parking.png",
+				"selectedIconPath": "static/tab-active-parking.png"
+			},
+			{
+				"pagePath": "pages/serve/serve",
+				"text": "服务",
+				"iconPath": "static/tab-car.png",
+				"selectedIconPath": "static/tab-active-car.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-active-my.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

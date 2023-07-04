@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view .top {
+  height: 360rpx;
+  padding: 30rpx 0;
+  background-color: #4186fd;
+}
+view .top .bind {
+  width: 86%;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  background-color: #054bc4;
+  position: relative;
+}
+view .top .bind .add {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  top: 130rpx;
+  left: 160rpx;
+}
+view .top .bind .text {
+  color: #4186fd;
+  position: absolute;
+  top: 130rpx;
+  left: 210rpx;
+}
+view .bottom {
+  height: 2300rpx;
+  background-color: #ecedef;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  overflow: hidden;
+  position: relative;
+  top: -40rpx;
+}
+view .bottom .firstFloor {
+  background-color: white;
+  height: 680rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 30rpx;
+}
+view .bottom .firstFloor .classify {
+  width: 21%;
+  height: 21%;
+  margin-top: 30rpx;
+}
+view .bottom .firstFloor .classify .classifyPic {
+  width: 100rpx;
+  height: 100rpx;
+  position: relative;
+  left: 38rpx;
+}
+view .bottom .firstFloor .classify .title {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+view .bottom .firstFloor .advertisement {
+  width: 90%;
+  height: 260rpx;
+  margin: 40rpx 0 30rpx 0;
+}
+view .bottom .secendFloor {
+  height: 640rpx;
+  padding: 0 40rpx;
+  background-color: white;
+  margin-bottom: 30rpx;
+}
+view .bottom .secendFloor .title {
+  height: 50rpx;
+  padding: 40rpx 0;
+  line-height: 50rpx;
+}
+view .bottom .secendFloor .title .text {
+  font-size: 40rpx;
+  float: left;
+}
+view .bottom .secendFloor .title .more {
+  color: darkgray;
+  float: right;
+  position: relative;
+  padding-right: 60rpx;
+}
+view .bottom .secendFloor .title .more .go {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+view .bottom .secendFloor .content {
+  height: 500rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+view .bottom .secendFloor .content .item {
+  width: 31%;
+  aspect-ratio: 1;
+  margin-bottom: 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+view .bottom .secendFloor .content .item ._img {
+  width: 100%;
+  height: 100%;
+}
+view .bottom .thirdFloor {
+  height: 860rpx;
+  padding: 0 40rpx;
+  background-color: white;
+}
+view .bottom .thirdFloor .title {
+  height: 50rpx;
+  padding: 40rpx 0;
+  line-height: 50rpx;
+}
+view .bottom .thirdFloor .title .text {
+  font-size: 40rpx;
+  float: left;
+}
+view .bottom .thirdFloor .title .more {
+  color: darkgray;
+  float: right;
+  position: relative;
+  padding-right: 60rpx;
+}
+view .bottom .thirdFloor .title .more .go {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+view .bottom .thirdFloor .content {
+  height: 400rpx;
+}
+view .bottom .thirdFloor .content .item {
+  height: 200rpx;
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 0;
+}
+view .bottom .thirdFloor .content .item .left {
+  height: 200rpx;
+  float: left;
+  width: 70%;
+  position: relative;
+}
+view .bottom .thirdFloor .content .item .left .text {
+  /* 1、先强制一行内显示文本（默认 normal 自动换行） */
+  white-space: nowrap;
+  /* 2、超出的部分隐藏 */
+  overflow: hidden;
+  /* 3、文字用省略号替代超出的部分 */
+  text-overflow: ellipsis;
+}
+view .bottom .thirdFloor .content .item .left .date {
+  position: absolute;
+  bottom: 0;
+  color: darkgray;
+  font-size: 28rpx;
+}
+view .bottom .thirdFloor .content .item .right {
+  float: right;
+  width: 30%;
+  height: 200rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+view .bottom .thirdFloor .content .item .right ._img {
+  width: 100%;
+  height: 100%;
+}
+

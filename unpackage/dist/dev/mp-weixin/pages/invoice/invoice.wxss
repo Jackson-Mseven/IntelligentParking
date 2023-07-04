@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  background-color: #ecedef;
+}
+.container .top {
+  height: 320rpx;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .top .item {
+  width: 30%;
+  height: 240rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.container .top .item .pic {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 40rpx auto 20rpx;
+}
+.container .top .item .pic ._img {
+  width: 100%;
+  height: 100%;
+}
+.container .top .item .text {
+  text-align: center;
+}
+.container .list {
+  background-color: #fff;
+}
+.container .list .item {
+  height: 100rpx;
+  width: 90%;
+  line-height: 100rpx;
+  margin: 0 auto;
+  position: relative;
+  color: #323232;
+}
+.container .list .item .go {
+  position: absolute;
+  right: 0;
+}
+

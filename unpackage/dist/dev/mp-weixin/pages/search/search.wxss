@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  background-color: lightgray;
+}
+.container .top {
+  height: 110rpx;
+  background-color: white;
+}
+.container .searchResult {
+  background-color: white;
+}
+.container .searchResult .resultItem {
+  position: relative;
+  width: 90%;
+  height: 110rpx;
+  padding: 30rpx 0;
+  margin: 0 auto;
+  border-bottom: 1rpx solid #ccc;
+}
+.container .searchResult .resultItem .location {
+  position: absolute;
+  top: 38rpx;
+  left: 0;
+  width: 40rpx;
+  height: 40rpx;
+}
+.container .searchResult .resultItem .title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 42rpx;
+  /* 1、先强制一行内显示文本（默认 normal 自动换行） */
+  white-space: nowrap;
+  /* 2、超出的部分隐藏 */
+  overflow: hidden;
+  /* 3、文字用省略号替代超出的部分 */
+  text-overflow: ellipsis;
+}
+.container .searchResult .resultItem .address {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 36rpx;
+  color: darkgrey;
+  /* 1、先强制一行内显示文本（默认 normal 自动换行） */
+  white-space: nowrap;
+  /* 2、超出的部分隐藏 */
+  overflow: hidden;
+  /* 3、文字用省略号替代超出的部分 */
+  text-overflow: ellipsis;
+}
+

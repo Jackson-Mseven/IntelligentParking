@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  background-color: #ecedef;
+  overflow: hidden;
+}
+.container .list {
+  background-color: #fff;
+  margin: 20rpx 0;
+}
+.container .list .item {
+  height: 100rpx;
+  width: 90%;
+  line-height: 100rpx;
+  margin: 0 auto;
+  position: relative;
+  color: #323232;
+}
+.container .list .item .go {
+  position: absolute;
+  right: 0;
+}
+.container .meta {
+  color: #b1b2b0;
+  margin-left: 40rpx;
+  font-size: 24rpx;
+}
+

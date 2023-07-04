@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "服务",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#4186fd",
+  "backgroundColor": "#4186fd",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

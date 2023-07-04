@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/serve/serve",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/bind/bind",
+    "pages/order/order",
+    "pages/management/management",
+    "pages/coupon/coupon",
+    "pages/invoice/invoice",
+    "pages/publish/publish",
+    "pages/wallet/wallet",
+    "pages/touch/touch",
+    "pages/setting/setting",
+    "pages/explain/explain",
+    "pages/parking/parking",
+    "pages/hot/hot",
+    "pages/hotDetail/hotDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#4186fd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "text": "停车",
+        "iconPath": "static/tab-parking.png",
+        "selectedIconPath": "static/tab-active-parking.png"
+      },
+      {
+        "pagePath": "pages/serve/serve",
+        "text": "服务",
+        "iconPath": "static/tab-car.png",
+        "selectedIconPath": "static/tab-active-car.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-active-my.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于导航功能"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdateBackground",
+    "startLocationUpdate"
+  ],
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "usingComponents": {}
+}

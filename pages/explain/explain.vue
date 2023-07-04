@@ -1,0 +1,59 @@
+<template>
+	<view class="container">
+		<view class="title">
+			【优惠券说明】
+		</view>
+		<view class="item">
+			1：优惠券所有权归平台所有；优惠券由平台发放，用户享有送达账户的优惠券的使用权。
+		</view>
+		<view class="item">
+			2：载平台遭受恶意操作，信息网络攻击或其他异常情况下，平台有权收回、停用、作废优惠券。
+		</view>
+		<view class="item">
+			3：优惠券仅能载平台提交订单时抵扣支付金额，不能用于兑换现金。
+		</view>
+		<view class="item">
+			4：单个停车订单，仅可使用一张优惠券。
+		</view>
+		<view class="item">
+			5：下单后15分钟内取消订单，根据免费取消规则，已使用的优惠券将会退还给用户；若超过免费取消次数，平台将扣除响应的费用，届时优先核消优惠券金额。
+		</view>
+		<view class="item">
+			6：用户载其他情形下取消停车订单，经平台确认为用户无责，该订单中使用的优惠券将会退还给用户。
+		</view>
+		<view class="item">
+			7：在停车订单中，优惠券已使用的情况下，优惠券将被核销掉；优惠券实际使用金额小于优惠券面额时，优惠券将被核销掉。
+		</view>
+		<view class="item">
+			8：优惠券在发放时已标注使用期限，过期优惠券将不能使用；您可以在“我的优惠券-已过期优惠券”中找到过期的优惠券。
+		</view>
+		<view class="item">
+			9：优惠券只能抵扣订单金额，优惠金额超出订单金额部分不能再次使用，不能兑换现金。
+		</view>
+		<view class="item">
+			10：优惠券所抵扣的金额不能开具发票。
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {};
+		}
+	}
+</script>
+
+<style lang="scss">
+	.container {
+		padding: 30rpx;
+
+		.title {
+			margin-bottom: 30rpx;
+		}
+
+		.item {
+			margin-bottom: 20rpx;
+		}
+	}
+</style>

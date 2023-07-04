@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  padding: 30rpx;
+}
+.container .title {
+  margin-bottom: 30rpx;
+}
+.container .item {
+  margin-bottom: 20rpx;
+}
+

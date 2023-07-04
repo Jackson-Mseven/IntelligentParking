@@ -1,0 +1,1 @@
+<view class="container" style="{{'height:'+(windowHeight+48+'px')+';'}}"><view class="pic"><image src="/static/publish.png" alt class="_img"></image></view><view class="title">您还没有开启车位共享</view><view class="text">为什么开启车位共享？</view><view class="text">将闲置车位资源共享给需要的人</view><view class="text">您也会获得相应的收益</view><view class="btn"><button>发布车位</button></view></view>

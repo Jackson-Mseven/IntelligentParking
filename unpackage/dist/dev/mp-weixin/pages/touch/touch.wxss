@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  background-color: #ecedef;
+}
+.container .list {
+  overflow: hidden;
+}
+.container .list .item {
+  width: 90%;
+  height: 140rpx;
+  background-color: #fff;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 6rpx;
+}
+.container .list .item ._img {
+  width: 76rpx;
+  height: 76rpx;
+  margin: 0 30rpx 0 10rpx;
+}
+.container .list .item .text .title {
+  font-size: 30rpx;
+  padding-bottom: 10rpx;
+}
+.container .list .item .text .meta {
+  font-size: 24rpx;
+  color: #cbcacb;
+}
+.container .list .item .go {
+  position: absolute;
+  right: 20rpx;
+}
+

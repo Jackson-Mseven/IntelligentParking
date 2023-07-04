@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  background-color: #ebecee;
+}
+.container .top {
+  height: 100rpx;
+  background-color: #fff;
+}
+.container .top .left,
+.container .top .right {
+  width: 47%;
+  color: #000;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.container .top .left {
+  float: left;
+  margin-left: 2%;
+}
+.container .top .right {
+  float: right;
+  margin-right: 2%;
+}
+.container .top .active {
+  color: #fff;
+  background-color: #4186fd;
+}
+.container .model {
+  height: 92rpx;
+  background-color: #fff;
+}
+.container .model .left,
+.container .model .right {
+  width: 50%;
+  color: #c1c1c1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.container .model .left {
+  float: left;
+}
+.container .model .left .leftActive {
+  width: 80rpx;
+  border: 6rpx solid #4288fd;
+  margin: 0 auto;
+  border-radius: 6rpx;
+}
+.container .model .right {
+  float: right;
+}
+.container .model .right .rightActive {
+  width: 110rpx;
+  border: 6rpx solid #4288fd;
+  margin: 0 auto;
+  border-radius: 6rpx;
+}
+.container .model .active {
+  color: #4286fa;
+}
+.container .noneOrder {
+  width: 200rpx;
+  height: 220rpx;
+  margin: 200rpx auto;
+}
+.container .noneOrder ._img {
+  width: 100%;
+  height: 100%;
+}
+.container .noneOrder .text {
+  margin-top: 100rpx;
+  color: #a8a9a8;
+}
+

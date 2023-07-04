@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  font-size: 24rpx;
+  background-color: lightgray;
+  height: 1334rpx;
+}
+.container .top {
+  position: relative;
+  height: 130rpx;
+  background-color: white;
+  padding: 30rpx 20rpx;
+  margin-bottom: 20rpx;
+}
+.container .top .title {
+  width: 80%;
+  font-size: 36rpx;
+  margin-bottom: 30rpx;
+}
+.container .top .address {
+  width: 70%;
+  display: inline-block;
+  float: left;
+  color: darkgray;
+}
+.container .top .distance {
+  display: inline-block;
+  float: right;
+}
+.container .top .go {
+  position: absolute;
+  top: 30rpx;
+  right: 24rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.container .temporary {
+  height: 270rpx;
+  background-color: white;
+  padding: 40rpx 20rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+.container .temporary .car {
+  padding-bottom: 90rpx;
+}
+.container .temporary .car .left {
+  float: left;
+}
+.container .temporary .car .left .route {
+  padding: 6rpx;
+  background-color: lightblue;
+  color: blue;
+  margin-right: 10rpx;
+}
+.container .temporary .car .right {
+  float: right;
+}
+.container .temporary .car .right ._span {
+  color: darkgray;
+}
+.container .temporary .middle {
+  display: flex;
+  justify-content: space-between;
+  height: 120rpx;
+  margin-bottom: 30rpx;
+}
+.container .temporary .middle .flexBox {
+  width: 30%;
+  height: 100%;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10rpx darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .temporary .middle .flexBox .title {
+  color: darkgray;
+}
+.container .temporary .price {
+  color: darkgrey;
+}
+.container .reservation {
+  height: 80rpx;
+  padding: 30rpx;
+  background-color: white;
+  position: relative;
+}
+.container .reservation .info {
+  line-height: 110rpx;
+}
+.container .reservation .text {
+  color: darkgray;
+  position: absolute;
+  left: 80rpx;
+  top: 50rpx;
+}
+.container .reservation .applyBtn {
+  position: absolute;
+  top: 40rpx;
+  right: 30rpx;
+  border: 1rpx solid #8c8cff;
+  border-radius: 50rpx;
+  color: #8c8cff;
+}
+
